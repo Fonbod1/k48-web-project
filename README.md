@@ -1,2 +1,4 @@
-This is a web project that has been design by integrating ten different projects into a single project.
+ k48-web-project-branch1
+The purpose of this branch is to allow developers to clone the duplicate of the original repository.
+Changes that are made will be reviewed before validation.
 

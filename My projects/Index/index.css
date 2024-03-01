@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:wght@100;300;400&display=swap');
+
+.content-large {
+  display: flex;
+  /*font-family: 'Roboto', sans-serif;*/
+
+}
+@media (max-width: 750px){
+  .content-large{
+    flex-direction: column;
+    
+    
+  }
+}
+.sect1 {
+  display: flex;
+  padding: 30px;
+}
+ .me {
+  height: 100px;
+  display: block;
+  padding: 30px;
+  width: 100px;
+  margin-left: 130px;
+  border-radius: 80px;
+
+ }
+ @media (max-width: 750px){
+  .me{
+    padding: 20px;
+  }
+ }
+
+  .photo {
+    border: 2px solid gray;
+    width: 400px;
+    height: 400px;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  @media (max-width: 750px){
+    .photo {
+      width: 370px;
+      height: 200px;
+      margin-left: -20px;
+      
+      
+    }
+  }
+
+   #me-name {
+    padding: 60px;
+    font-size: 25px;
+   }
+
+   /* properties of the adress*/
+
+   .p-adress {
+    border: 2px solid gray;
+    height: 380px;
+    padding: 10px;
+    margin-top: -20px;
+    width: 70vw;
+    margin-left: 10px;
+    
+    
+   }
+   @media (max-width: 1500px){
+    .p-adress {
+      padding: 5px;
+      height: 380px;
+      margin-top: 1px;
+      width: 360px;
+      margin-left: -20px;
+      align-self: center;
+      align-content: flex-start;
+      
+    }
+   }
+
+    li {
+      padding: 10px;
+      border-bottom: 1px solid gray;
+      list-style: none;
+    }
+     #nom-complet {
+      font-size: 20px;
+      font-weight: bold;
+      padding-right: 100px;
+     }
+     #Email {
+      font-size: 20px;
+      font-weight: bold;
+      padding-right: 169px;
+     }
+     #telepone {
+      font-size: 20px;
+      font-weight: bold;
+      padding-right: 135px;
+     }
+     #adress-personal{
+      font-size: 20px;
+      font-weight: bold;
+      padding-right: 155px;
+     }
+     /*properties of the personal adress*/
+     #info {
+      font-size: 19px;
+      word-spacing: 10px;
+     }
+     @media (max-width: 750px){
+      #info {
+        font-size: 15px;
+        margin-left: 0px;
+      }
+     }
+     

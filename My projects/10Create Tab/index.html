@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating Tab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tab">
+        <button onclick="openOnglet(event, 'Home')" class="tablinks">Home</button>
+        <button onclick="openOnglet(event, 'Contact')"  class="tablinks">Contact</button>
+        <button onclick="openOnglet(event, 'Reservation')" class="tablinks">Reservation</button>
+        <button onclick="openOnglet(event, 'Store')" class="tablinks">Store</button>
+      
+  </div>
+
+  <div class="tabcontent" id="Home">
+    <h3>Home</h3>
+    <p>Welcome to our home page</p>
+    <div class="picture">
+       <img src="images/img1.jpg">
+    </div>
+  </div>
+  <div class="tabcontent" id="Contact">
+    <h3>Contact</h3>
+    <p>Welcome to our contact page</p>
+    <div class="picture">
+       <img src="images/img2.jpg">
+    </div>
+  </div>
+  <div class="tabcontent" id="Reservation">
+    <h3>Reservation</h3>
+    <p>Welcome to our Reservation page</p>
+    <div class="picture">
+       <img src="images/img3.jpg">
+    </div>
+  </div>
+  <div class="tabcontent" id="Store">
+    <h3>Store</h3>
+    <p>Welcome to our Store page</p>
+    <div class="picture">
+       <img src="images/img4.jpg">
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
